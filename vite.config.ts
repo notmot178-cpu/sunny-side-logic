@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     tsConfigPaths(),
     tailwindcss(),
-    tanstackStart({ target: "vercel" }), // ← THIS is the magic line
+    tanstackStart({ target: "vercel" }),
     viteReact(),
   ],
 });
