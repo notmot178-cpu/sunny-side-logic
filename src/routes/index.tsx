@@ -265,7 +265,7 @@ function Hero() {
         gap: 64, alignItems: "center",
       }} className="hero-grid">
         <div className="reveal">
-          <div className="eyebrow" style={{ marginBottom: 24 }}>Bhubaneswar, India · Available May 2026</div>
+          <div className="eyebrow" style={{ marginBottom: 24 }}>Bhubaneswar, India</div>
           <h1 className="h1">
             Satyajit Parida —<br />
             <em className="italic-coral">building</em> AI systems<br />
@@ -1301,17 +1301,6 @@ function Writing() {
           Peer-reviewed paper at IEEE CCPIS 2025. Real-time behavioral biometrics replace hostile captcha flows with passive, accurate bot scoring.
         </p>
         <a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener noreferrer" className="btn-clay" style={{ marginTop: 20 }}>Read on IEEE Xplore ↗</a>
-      </div>
-      <div style={{ marginTop: 20, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 16 }}>
-        {[
-          ["Building Agentic RAG for Indian Legal Documents", "In progress"],
-          ["MLOps from Zero to Production: A Field Guide", "Planned"],
-        ].map(([t, status]) => (
-          <div key={t} className="reveal" style={{ padding: 24, borderRadius: 20, border: "2px dashed var(--border)", opacity: 0.65 }}>
-            <div style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--coral)" }}>{status}</div>
-            <div style={{ marginTop: 8, fontWeight: 600 }}>{t}</div>
-          </div>
-        ))}
       </div>
     </section>
   );
