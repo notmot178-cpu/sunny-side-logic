@@ -265,7 +265,7 @@ function Hero() {
         gap: 64, alignItems: "center",
       }} className="hero-grid">
         <div className="reveal">
-          <div className="eyebrow" style={{ marginBottom: 24 }}>Bhubaneswar, India · Available May 2026</div>
+          <div className="eyebrow" style={{ marginBottom: 24 }}>Bhubaneswar, India</div>
           <h1 className="h1">
             Satyajit Parida —<br />
             <em className="italic-coral">building</em> AI systems<br />
